@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-  height: 600px;
+  height: 525px;
   width: 360px;
   margin: 100px auto;
   background-color: azure;
@@ -77,9 +77,4 @@ body {
   border-bottom-left-radius: 20px;
   text-align: center;
   color: white;
-}
-
-#totalTip {
-  text-align: center;
-  text-transform: uppercase;
 }
