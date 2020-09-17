@@ -6,56 +6,57 @@
   <title>Calculadora de Gorjetas</title>
   <script src="index.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
   
 </head>
 <body>
+  <div id="container">
 
-  <div>
-    <h1>Calculadora de Gorjetas</h1>
-  </div>
-
-  <div>
-    <form>
-
-      <label for="bill">
-        <p>Quanto ficou a conta?</p>
-      </label>
-
-      <p>
-        R$ <input type="number" placeholder="100" id="bill">
-      </p>
-
-      <label for="quality">
-        <p>O que achou da qualidade do serviço?</p>
-      </label>
-
-      <p>
-        <select name="quality" id="quality">
-          <option disabled selected> --Insira a qualidade do serviço </option>
-          <option value="0.30">30% - Incrível</option>
-          <option value="0.20">20% - Bom</option>
-          <option value="0.15">15% - Aceitável</option>
-          <option value="0.10">10% - Ruim</option>
-          <option value="0.05">5% - Péssimo</option>
-        </select>
-      </p>
-
-      <label for="people">
-        <p>Quantas pessoas vão dividir a conta?</p>
-      </label>
-
-      <p>
-        <input type="number" placeholder="1" name="people "id="people"> pessoa(s)
-      </p>
-
-      <button type="submit">CALCULAR</button>
+    <div class="title">
+      <h1>Calculadora de Gorjetas</h1>
+    </div>
+  
+    <div>
+      <form class="tipsForm">
+  
+        <label for="bill">
+          <p>Quanto ficou a conta?</p>
+        </label>
+  
+        <p>
+          R$ <input type="number" placeholder="100" id="bill" class="formInput">
+        </p>
+  
+        <label for="quality">
+          <p>O que achou da qualidade do serviço?</p>
+        </label>
+  
+        <p>
+          <select name="quality" id="quality" class="formSelect">
+            <option disabled selected> --Insira a qualidade do serviço </option>
+            <option value="0.30">30% - Incrível</option>
+            <option value="0.20">20% - Bom</option>
+            <option value="0.15">15% - Aceitável</option>
+            <option value="0.10">10% - Ruim</option>
+            <option value="0.05">5% - Péssimo</option>
+          </select>
+        </p>
+  
+        <label for="people">
+          <p>Quantas pessoas vão dividir a conta?</p>
+        </label>
+  
+        <p>
+          <input type="number" placeholder="1" name="people "id="people" class="formInput"> pessoa(s)
+        </p>
+  
+        <button type="submit" class="formSubmit">CALCULAR</button>
+  
+      </form>
       
-      <p>
-        <label for="result">A gorjeta é igual a: </label>
-      </p>
+    </div>
 
-    </form>
-    
   </div>
   
 </body>
