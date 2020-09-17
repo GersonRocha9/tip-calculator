@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Gorjetas</title>
-  <script src="index.js"></script>
+  <link rel="icon" type="imagem/png" href="\src\images\calculator.ico" />
+  <script src="scripts.js"></script>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
@@ -54,7 +55,8 @@
         <button type="submit" class="formSubmit" onclick="billCalculator()">Calcular</button>
 
         <div id="result">
-          <label for="total">Total: </label> 
+          R$ <span id="tip">0.00</span> 
+          <p id="each">cada</p>
         </div>
   
       </form>

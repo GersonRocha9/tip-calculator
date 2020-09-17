@@ -2,11 +2,10 @@ function billCalculator () {
   var bill = document.getElementById('bill').value
   let quality = document.getElementById('quality').value;
   let people = document.getElementById('people').value;
-  let result = (bill*quality)/people;
-  
+  let result = (bill*quality)/people;  
 }
 
-function changeLabel(text) {
+function changeLabel() {
   document.getElementById('result').innerHTML =
-  "<label for='total'>"+text+"</label> ";
+  "<label for='total'>"+"</label> ";
 }

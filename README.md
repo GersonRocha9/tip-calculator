@@ -1,6 +1,6 @@
 # Calculadora de Gorjetas
 
-![Alt text](screenProjeto.png?raw=true "Title")
+![Imagem do Projeto](/src/images/screenProjeto.png)
 
 Projeto simples desenvolvido apenas com HTML, CSS, e JavaScript para calcular gorjetas de comércio.
 
