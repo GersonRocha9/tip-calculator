@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-  height: 525px;
+  height: 600px;
   width: 360px;
   margin: 100px auto;
   background-color: azure;
@@ -69,6 +69,7 @@ body {
 
 .footer {
   background-color: rgb(196, 129, 104);
+  margin-top: 35px;
   padding: 10px;
   text-transform: uppercase;
   font-size: 6px;
@@ -76,4 +77,9 @@ body {
   border-bottom-left-radius: 20px;
   text-align: center;
   color: white;
+}
+
+#result {
+  text-align: center;
+  text-transform: uppercase;
 }
