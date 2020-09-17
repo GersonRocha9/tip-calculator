@@ -19,7 +19,7 @@
     </div>
   
     <div>
-      <form class="tipsForm">
+      <form class="tipsForm" id="tipsForm">
   
         <label for="bill">
           <p>Quanto ficou a conta?</p>
@@ -35,7 +35,7 @@
   
         <p>
           <select name="quality" id="quality" class="formSelect">
-            <option disabled selected> --Insira a qualidade do serviço </option>
+            <option disabled selected> Insira a qualidade do serviço </option>
             <option value="0.30">30% - Incrível</option>
             <option value="0.20">20% - Bom</option>
             <option value="0.15">15% - Aceitável</option>
@@ -52,9 +52,9 @@
           <input type="number" placeholder="1" name="people "id="people" class="formInput"> pessoa(s)
         </p>
   
-        <button type="submit" class="formSubmit" onclick="billCalculator()">Calcular</button>
+        <button type="submit" class="formSubmit">Calcular</button>
 
-        <div id="result">
+        <div id="totalTip">
           R$ <span id="tip">0.00</span> 
           <p id="each">cada</p>
         </div>
