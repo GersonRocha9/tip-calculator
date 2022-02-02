@@ -1,16 +1,16 @@
-# Calculadora de Gorjetas
+# Tip Calculator
 
 ![Imagem do Projeto](/src/images/screenProjeto.png)
 
-Projeto simples desenvolvido apenas com HTML, CSS, e JavaScript para calcular gorjetas de comércio.
+Project developed with HTML, CSS, and JavaScript to calculate trade tips.
 
-## Execução
+## Run
 
-Para executar, é necessário clonar o projeto do GitHub num diretório de sua preferência:
+To run, you need to clone the GitHub project in a directory of your choice:
 
 ```shell
-cd "diretorio de sua preferencia"
-git clone https://github.com/GersonRocha9/CalculadoraDeGorjetas
+cd "directory"
+git clone https://github.com/GersonRocha9/tip-calculator
 ```
 
-Após isso, basta abrir o arquivo index.html diretamente em seu browser.
+After that, just open the index.html file directly in your browser.
